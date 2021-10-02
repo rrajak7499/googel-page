@@ -1,0 +1,180 @@
+body {
+    height: 100%;
+    width: 100;
+    margin: 0px;
+    /* background-color: tomato; */
+}
+
+.head {
+    /* display: flex; */
+	align-items: center;
+	padding: 6px
+}
+
+.head1 {
+    /* background-color: yellow; */
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+}
+
+.subhead {
+    float: right;
+    margin-right: 10px;
+}
+
+.superhead {
+    display: flex;
+    flex-direction: row;
+}
+
+.gmail {
+   
+    line-height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: black;
+}
+
+.image {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: black;
+}
+
+.tools {
+    width: 32px;
+    height: 32px;
+    align-items: center;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+
+/* ------------------ google iamge -------------- */
+
+.google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleimage {
+    display: flex;
+    margin: 50px;
+}
+
+
+/* ------------------ google Input -------------- */
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputsearch {
+    display: inline-block;
+    /* box-sizing: border-box 0.2px; */
+    height: 50px;
+    width: 600px;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: fit-content;
+    margin: 0px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.text {
+    font-size: 14px;
+    margin: 20px 5px;
+}
+
+.buffer {
+    height: 150px;
+}
+
+.footer {
+    height: 40px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #f2f2f2
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    line-height: 2;
+    /* margin: 20px; */
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    background: #f2f2f2
+    /* background-color: red; */
+}
+
+.fott {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    line-height: 2;
+    justify-content: space-between;
+    /* margin: 20px; */
+    /* border-bottom: 1px solid #dadce0; */
+    font-size: 15px;
+    background: #f2f2f2
+    /* background-color: red; */
+}
+
+.fott1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    /* border-bottom: 1px solid #dadce0; */
+    font-size: 15px;
+    color: rgba(49, 49, 49, 0.54);
+}
+
+.fott2 {
+    padding: 0px 30px;
+    /* border-bottom: 1px solid #dadce0; */
+    font-size: 15px;
+    color: rgba(49, 49, 49, 0.54);
+}
+
+a:link {
+    color: rgba(49, 49, 49, 0.54);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.link {
+    margin: 0px 10px;
+}
